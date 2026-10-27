@@ -1,0 +1,26 @@
+{
+  "name": "atc-vcs-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "空管语音通信交换系统 - 前端（Vue3 + Ant Design Vue + Vite）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^4.2.6",
+    "atc-vcs": "file:..",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.5.1",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}

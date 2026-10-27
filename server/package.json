@@ -1,0 +1,21 @@
+{
+  "name": "atc-vcs-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "空管语音通信交换系统 - 后端服务（Express + SQLite）",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "reset": "node src/reset.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "atc-vcs": "file:..",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
